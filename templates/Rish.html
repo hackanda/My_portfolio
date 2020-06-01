@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello Rishabh!</title>
+	<link rel = "stylesheet" type = "text/css" href = "{{url_for('static' , filename='style.css')}}" >
+	<link rel="shortcut icon" href="{{ url_for('static', filename='pic.ico') }}">
+</head>
+<body>
+	Hii...My name is Rishabh Yadav . I am a new Programmer learning Python.
+	{{ name }}
+	{{ post_id }}
+	<script type="text/javascript" src = "{{ url_for('static' , filename='script.js') }}"></script>
+</body>
+</html>
