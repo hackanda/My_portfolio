@@ -42,3 +42,5 @@ def submit_form():
     	# return render_template('/thanks.html')  If we use this then the url will stay same and only the contents of the html page will change
     else:
     	return 'Something Went wrong...'
+
+# This change will be reflected in github .
