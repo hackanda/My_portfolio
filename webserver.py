@@ -43,4 +43,4 @@ def submit_form():
     else:
     	return 'Something Went wrong...'
 
-# This change will be reflected in github .
+# Thanks guys.
